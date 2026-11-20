@@ -1,0 +1,8 @@
+# Jangan ikutkan lingkungan lokal / berkas sementara
+.venv/
+__pycache__/
+*.pyc
+shots/_tmp/
+
+# Model final besar (opsional): buka komentar bila model > 100 MB
+# model_output/*.pkl

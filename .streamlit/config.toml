@@ -1,0 +1,19 @@
+# Tema dasar Streamlit. Aplikasi memakai tema Hallmark "Console".
+# Colourway awal = graphite (gelap). Tombol "Mode terang" di app.py menukar
+# ke colourway paper; seluruh warna (termasuk label widget) ditulis ulang
+# oleh CSS di app.py, jadi config hanya menetapkan keadaan awal.
+
+[theme]
+base = "dark"
+
+# Console · graphite (token Hallmark, oklch -> hex sRGB)
+backgroundColor = "#0d1013"
+secondaryBackgroundColor = "#15191c"
+textColor = "#eceff2"
+primaryColor = "#f7b83d"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
